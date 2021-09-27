@@ -1,0 +1,40 @@
+.tabel{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 70vh;
+}
+
+#dua{
+    margin-top: 15px;
+}
+
+#chk2{
+    margin-top: 15px;
+}
+
+
+#tiga{
+    margin-top: 15px;
+}
+
+#chk3{
+    margin-top: 15px;
+}
+
+#btn{
+    margin-top: 25px;
+    margin-right: 7px;
+}
+
+.line{
+    margin-top: 35px;
+    margin-right: 0px;
+}
+
+.satu{
+    border: none;
+    border-color: transparent;
+    padding-right: 0px;
+    margin-left: -20px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form name="calculator"> 
+        <table class="tabel">
+         <tr>
+          <td><input type="text" id="satu" name="angka1"></td><td><input type="checkbox" id="chk1" name="input" value=angka1/></label></td>
+         </tr>
+         <tr>
+          <td><input type="text" id="dua" name="angka2"></td><td><input type="checkbox" id="chk2" name="input" value=angka2/></label></td>
+         </tr>
+         <tr>
+          <td><input type="text" id="tiga" name="angka3"></td><td><input type="checkbox" id="chk3" name="input" value=angka3/></label></td>
+        </tr>
+         <tr>
+            <td colspan="0" align="center">
+           <input id="btn" class="tombol" type="button" onclick="tambah()" value="  +  ">
+           <input id="btn" class="tombol" type="button" onclick="kurang()" value="  -  ">
+           <input id="btn" class="tombol" type="button" onclick="kali()" value="  *  ">
+           <input id="btn" class="tombol" type="button" onclick="bagi()" value="  /  ">
+          </td>
+         </tr>
+         <tr><td><hr class="line"></td></tr>
+         <tr>
+            <td>Hasil :</td><td><input class="satu" type="text" name="hasil"></td>
+           </tr>
+        </table>
+       </form>
+</body>
+</html>
